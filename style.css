@@ -64,35 +64,50 @@ main {
     gap: 20px;
 }
 
-.product-item, .product-detail {
+.product-item {
     background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: calc(33.333% - 20px);
+    text-align: center;
+    transition: transform 0.2s;
 }
 
-.product-item img, .product-detail img {
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-.product-item h3, .product-detail h3 {
-    margin: 10px 0 5px;
-    font-size: 18px;
+.product-item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
 }
 
-.product-item p, .product-detail p {
+.product-item p {
     margin: 5px 0;
+    font-size: 16px;
+    color: #666;
 }
 
-.product-item button, .product-detail button {
-    padding: 10px;
+.product-item button {
+    padding: 10px 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #f5a623;
     color: #fff;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-item button:hover {
+    background-color: #e5941d;
 }
 
 footer {
