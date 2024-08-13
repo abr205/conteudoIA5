@@ -64,7 +64,7 @@ main {
     gap: 20px;
 }
 
-.product-item {
+.product-item, .product-detail {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -72,21 +72,21 @@ main {
     width: calc(33.333% - 20px);
 }
 
-.product-item img {
+.product-item img, .product-detail img {
     max-width: 100%;
     border-radius: 5px;
 }
 
-.product-item h3 {
+.product-item h3, .product-detail h3 {
     margin: 10px 0 5px;
     font-size: 18px;
 }
 
-.product-item p {
+.product-item p, .product-detail p {
     margin: 5px 0;
 }
 
-.product-item button {
+.product-item button, .product-detail button {
     padding: 10px;
     border: none;
     border-radius: 3px;
